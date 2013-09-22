@@ -32,11 +32,7 @@ header h2 i {
     -webkit-transition: font-size 0,5s;
 }
 
-header h2 i:hover {
-    color: #C4DA25; 
-    font-size: 1em;
-    
-}
+
 
  .eatme{
      width: 49%;
@@ -45,8 +41,26 @@ header h2 i:hover {
      float: left;
  }
  .lemon {
+    position: relative;
      width: 50%;
      text-align: left;
      float: left;
      
+ }
+  .lemon:hover .icon-music{
+       display:block;
+  }
+    .lemon:hover .icon-lemon{
+       display:none;
+  }
+ .icon-music {
+     position: absolute;
+     top: 0;
+     left: 0;
+     display:none;
+ }
+  .icon-lemon {
+     position: absolute;
+     top: 0;
+     left: 0;
  }
