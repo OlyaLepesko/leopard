@@ -25,7 +25,7 @@ header h2{
     text-align: center;
     color: #637E13;
     font-size: 3em;
-    text-shadow: 2px 2px 2px #36381C;
+    text-shadow: 2px 2px 2px #333;
 }
 header h2 i {
     font-size: 3em;
@@ -33,7 +33,20 @@ header h2 i {
 }
 
 header h2 i:hover {
-    color: #637E13; 
+    color: #C4DA25; 
     font-size: 1em;
     
 }
+
+ .eatme{
+     width: 49%;
+     text-align: right;
+     padding-right: 1%;
+     float: left;
+ }
+ .lemon {
+     width: 50%;
+     text-align: left;
+     float: left;
+     
+ }
