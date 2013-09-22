@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+}
+
+header {
+    height: 35%;
+    background-color: rgba(175, 157, 157, 0.75);
+}
+header h1{
+text-align: center;
+color: #FFFFFF;
+text-shadow: 2px 2px 2px #333333;
+font-size: 6em;   
+margin: 0;
+}
+header h1 i {
+    color: #DD3247;
+    -webkit-transition: color 1s ease;
+}
+header h1 i:hover {
+    color: #FF4242
+}
+
+header h2{
+    text-align: center;
+    color: #637E13;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px #36381C;
+}
+header h2 i {
+    font-size: 3em;
+    -webkit-transition: font-size 0,5s;
+}
+
+header h2 i:hover {
+    color: #637E13; 
+    font-size: 1em;
+    
+}
