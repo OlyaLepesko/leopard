@@ -45,22 +45,25 @@ header h2 i {
      width: 50%;
      text-align: left;
      float: left;
-     
  }
   .lemon:hover .icon-music{
-       display:block;
+    opacity: 1;
+    -webkit-transition: opacity 500ms;
   }
     .lemon:hover .icon-lemon{
-       display:none;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
   }
  .icon-music {
      position: absolute;
      top: 0;
      left: 0;
-     display:none;
+     opacity: 0;
+     -webkit-transition: opacity 500ms;
  }
   .icon-lemon {
      position: absolute;
      top: 0;
      left: 0;
+     -webkit-transition: opacity 500ms;
  }
